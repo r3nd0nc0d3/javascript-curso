@@ -41,8 +41,7 @@ console.log(resultado2);
 //Esta es una Funcion Expresada por lo que no podemos invocarla antes de su declaracion                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
 console.warn('ARRAYS');
 
-const miArreglo = [1,2,3,4,5,6];
+const miArreglo = ['hola', 'mundo',12,13,14];
 miArreglo.pop();
-miArreglo.push(23);
-console.log(miArreglo);
+miArreglo.push('ultimo elemento');
 console.log(miArreglo.indexOf(4));
