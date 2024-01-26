@@ -36,3 +36,11 @@ const miFuncionExpresada = function(a = 1, b = 2) {
 
 let resultado2 = miFuncionExpresada();
 console.log(resultado2);
+
+//ARREGLOS O ARRAYS  
+//Esta es una Funcion Expresada por lo que no podemos invocarla antes de su declaracion                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+console.warn('ARRAYS');
+
+const miArreglo = [1,2,3,4,5,6];
+miArreglo.pop();
+console.log(miArreglo.indexOf(4));
